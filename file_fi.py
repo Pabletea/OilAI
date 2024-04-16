@@ -1,6 +1,6 @@
 import os
 import glob
-import file_man
+import csv_man
 
 def findFiles(path, extension):
     pattern = os.path.join(path, f"*.{extension}")
@@ -14,7 +14,7 @@ def findFiles(path, extension):
 
 # Especifica la ruta del directorio donde deseas buscar archivos
 actual_path=os.path.dirname(os.path.abspath(__file__))
-datasetDir="\datasets"
+datasetDir="\data\datasets"
 PATH=actual_path+datasetDir
 
 # Especifica la extensión de archivo que deseas buscar
@@ -24,7 +24,7 @@ EXTENSION = "csv"
 files_list = findFiles(PATH, EXTENSION)
 
 if  (files_list):
-    file_man.dataManager(files_list)
+    csv_man.dataManager(files_list)
 else:
     print("No dataset found")
 

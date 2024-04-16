@@ -1,9 +1,9 @@
 import file_fi
-import file_man
+import csv_man
 def main():
     
     file_fi.findFiles
-    file_man.dataManager
+    csv_man.dataManager
 
 if __name__ == "__main__":
     main()
