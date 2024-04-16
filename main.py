@@ -1,9 +1,11 @@
-import file_fi
-import csv_man
+
+import file_manager
+import xls_find
 def main():
     
-    file_fi.findFiles
-    csv_man.dataManager
+    
+    xls_find.findFiles
+    file_manager.xlsManager
 
 if __name__ == "__main__":
     main()
