@@ -18,7 +18,7 @@ datasetDir="\data\source"
 PATH=actual_path+datasetDir
 
 # Especifica la extensión de archivo que deseas buscar
-EXTENSION = "ods"
+EXTENSION = "xlsx"
 
 # Llama a la función find_files() proporcionando la ruta del directorio y la extensión
 files_list = findFiles(PATH, EXTENSION)

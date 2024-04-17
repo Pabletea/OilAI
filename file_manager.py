@@ -1,4 +1,6 @@
 import pandas as pd
+import openpyxl
+
 
 
 
@@ -12,13 +14,14 @@ def xlsManager(xls_list):
     print(len(xls_list)) 
     while(xls_list):
         for file in xls_list:
-            xls_file = file
-            df = pd.read_excel(xls_file)
-            static_columns = ['columna1','columna2','columna3']
-            df_filtered=df[static_columns]
-            new_xls_file='new_xls_file.xls'
-            df_filtered.to_excel(new_xls_file,index=False)
-            print("Se ha creado el nuevo archivo filtrado")
+            xls_file = openpyxl.load_workbook(file)
+            xls_sheet = xls_file['Hoja1']
+            xls_sheet.delete_cols(idx=4)
+            xls_sheet.delete_cols(idx=6)
+            xls_sheet.delete_cols(idx=8)
+            xls_file.save("New_file.xlsx")
+            break
+            
 
 
        
