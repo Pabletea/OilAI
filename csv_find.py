@@ -1,6 +1,6 @@
 import os
 import glob
-import file_manager
+import source_manager
 
 def findFiles(path, extension):
     pattern = os.path.join(path, f"*.{extension}")
@@ -24,7 +24,7 @@ EXTENSION = "csv"
 files_list = findFiles(PATH, EXTENSION)
 
 if  (files_list):
-    file_manager.csvManager(files_list)
+    source_manager.csvManager(files_list)
 else:
     print("No dataset found")
 
