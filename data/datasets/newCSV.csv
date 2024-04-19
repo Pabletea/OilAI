@@ -1,0 +1,52 @@
+Fecha:,16/04/2024 12:00,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20,Unnamed: 21,Unnamed: 22,Unnamed: 23,Unnamed: 24,Unnamed: 25,Unnamed: 26,Unnamed: 27
+Descripción:,"Archivo de todos los productos en todas las estaciones de servicio. Este archivo se genera una vez cada hora, con los precios en ese momento, y sobrescribe al de la hora anterior, que no se conserva.",,,,,,,,,,,,,,,,,,,,,,,,,,
+Siglas:,"Margen - D: Derecho, I: Izquierdo, N: No aplica    Tipo venta - P: Venta al público en general, R: Venta restringida a socios o cooperativistas  Rem. - OM: Datos procedentes del operador mayorista, dm: Datos procedentes del distribuidor minorista      Tipo servicio - P: Servicio asistido por personal, A: Autoservicio por parte del cliente, con presencia de personal en la instalación, D: Autoservicio por parte del cliente, sin presencia de personal en la instalación",,,,,,,,,,,,,,,,,,,,,,,,,,
+Provincia,Municipio,Localidad,Dirección,Longitud,Toma de datos,Precio gasolina 95 E5,Precio gasolina 95 E10,Precio gasolina 95 E5 Premium,Precio gasolina 98 E5,Precio gasolina 98 E10,Precio gasóleo A,Precio gasóleo Premium,Precio gasóleo B,Precio gasóleo C,Precio bioetanol,% bioalcohol,Precio biodiésel,% éster metílico,Precio gases licuados del petróleo,Precio gas natural comprimido,Precio gas natural licuado,Precio hidrógeno,Rótulo,Tipo venta,Rem.,Horario,Tipo servicio
+ALBACETE,ABENGIBRE,ABENGIBRE,"AVENIDA CASTILLA LA MANCHA, 26","-1,539167",13/04/2024 16:21,"1,599",,,,,"1,429",,"1,099",,,,,,,,,,Nº 10.935,P,dm,L-D: 07:00-22:00,L-D: 07:00-22:00 (A)
+ALBACETE,ALATOZ,ALATOZ,"CR CM-332, 46,4","-1,346083",11/04/2024 14:37,"1,729",,,,,"1,689","1,719",,,,,,,,,,,REPSOL,P,dm,L-D: 7:00-23:00,L-D: 7:00-23:00 (A)
+ALBACETE,ALBACETE,ALBACETE,"CALLE PRINCIPE DE ASTURIAS (POLÍGONO DE ROMICA), 5","-1,832000",16/04/2024 00:00,"1,749",,,"1,891",,"1,639","1,729",,,,,,,,,,,BP ROMICA,P,OM,L-D: 06:00-21:30,L-D: 06:00-21:30 (A)
+ALBACETE,ALBACETE,ALBACETE,"AVENIDA 1º DE MAYO, S/N","-1,868500",16/04/2024 10:30,"1,729",,,"1,819",,"1,619","1,679",,,,,,,,,,,CARREFOUR,P,dm,L-S: 08:00-22:00; D: 09:00-21:00,L-S: 08:00-22:00 (A); D: 09:00-21:00 (A)
+ALBACETE,ALBACETE,ALBACETE,"CALLE FEDERICO GARCIA LORCA, 5","-1,846361",15/04/2024 13:36,,,,,,"1,630",,,,,,,,,,,,CEPSA,R,dm,L-S: 05:00-23:00,L-S: 05:00-23:00 (A)
+ALBACETE,ALBACETE,ALBACETE,"CALLE FEDERICO GARCIA LORCA, 1","-1,849833",11/04/2024 18:12,"1,509",,,,,"1,429",,,,,,,,,,,,PLENOIL,P,dm,L-D: 24H,L-D: 24H (D)
+ALBACETE,ALBACETE,ALBACETE,"PASEO CUBA (LA), 36","-1,859917",16/04/2024 07:00,"1,684",,,"1,876",,"1,576","1,686",,,,,,,"0,939",,,,CEPSA,P,OM,L-D: 06:00-22:00,L-D: 06:00-22:00 (P)
+ALBACETE,ALBACETE,ALBACETE,"AVENIDA ESCRITOR RODRIGO RUBIO, 3","-1,885361",16/04/2024 09:06,"1,498",,,,,"1,378","1,488",,,,,,,"0,798",,,,A&A,P,dm,L-S: 09:00-21:30,Sin datos
+ALBACETE,ALBACETE,ALBACETE,"CALLE CONSTANTINO ROMERO, S/N","-1,884444",10/04/2024 21:20,"1,498",,,,,"1,385",,,,,,,,,,,,PLENOIL,P,dm,L-D: 24H,L-D: 24H (D)
+ALBACETE,ALBACETE,ALBACETE,"AVENIDA MENÉNDEZ PIDAL, 58","-1,864917",16/04/2024 10:07,"1,684",,,"1,849",,"1,576","1,686",,,,,,,,,,,TAMOS,P,dm,L-D: 24H,L-D: 24H (A)
+ALBACETE,ALBACETE,ALBACETE,"CL PASEO DE LA CUBA, 15","-1,854556",16/04/2024 10:00,"1,749",,,"1,859",,"1,649","1,719",,,,,,,"0,939",,,,REPSOL,P,OM,L-D: 06:00-22:00,L-D: 06:00-22:00 (A)
+ALBACETE,ALBACETE,ALBACETE,"CALLE HERMANOS FALCÓ, 2","-1,849028",16/04/2024 10:22,"1,749",,,"1,869",,"1,639","1,719",,,,,,,,,,,CEPSA,P,dm,L-D: 06:30-22:30,Sin datos
+ALBACETE,ALBACETE,ALBACETE,CARRETERA JAEN KM. 2,"-1,871722",15/04/2024 04:20,"1,739",,"1,789","1,849",,"1,629","1,689",,,,,,,,,,,REPSOL,P,dm,L-D: 24H,L-D: 24H (A)
+ALBACETE,ALBACETE,ALBACETE,"AVDA. DE LOS TOREROS, S/N","-1,869889",16/04/2024 07:00,"1,609",,,,,"1,459","1,509",,,,,,,,,,,INPEALSA,P,dm,L-D: 07:00-23:00,L-D: 07:00-23:00 (P)
+ALBACETE,ALBACETE,ALBACETE,"CALLE CTRA. DE JAEN, 79","-1,883694",16/04/2024 06:00,"1,749",,,"1,879",,"1,639","1,709",,,,,,,,,,,REPSOL,P,dm,L-D: 06:00-22:00,Sin datos
+ALBACETE,ALBACETE,ALBACETE,"AVDA. DE ESPAÑA (PRÓX. A C/ SAN JUAN), S/N","-1,853306",16/04/2024 07:00,"1,609",,,,,"1,459",,,,,,,,,,,,INPEALSA,P,dm,L-D: 07:00-23:00,L-D: 07:00-23:00 (P)
+ALBACETE,ALBACETE,ALBACETE,"PG CAMPOLLANO-P. 2-CT, S.N.","-1,874972",16/04/2024 00:00,"1,749",,,"1,859",,"1,659","1,729",,,,,,,,,,,REPSOL,P,OM,L-V: 06:00-22:00; S: 07:30-15:30; D: 09:00-15:00,L-V: 06:00-22:00 (A); S: 07:30-15:30 (A); D: 09:00-15:00 (A)
+ALBACETE,ALBACETE,ALBACETE,"CALLE ALMANSA, 2","-1,847083",15/04/2024 23:22,"1,749",,,"1,881",,"1,639","1,705",,,,,,,,,,,CEPSA,P,dm,L-D: 06:00-23:00,L-D: 06:00-23:00 (A)
+ALBACETE,ALBACETE,ALBACETE,CARRETERA NACIONAL 322 PTO KM 347 KM. 347,"-1,935500",12/04/2024 07:00,,,,,,"1,469",,,,,,,,,,,,P347,P,dm,L-S: 07:00-22:00,L-S: 07:00-22:00 (A)
+ALBACETE,ALBACETE,ALBACETE,CARRETERA N-322 KM. 359,"-1,845083",16/04/2024 00:00,"1,739",,,"1,849",,"1,639","1,709",,,,,,,,,,,REPSOL,P,OM,L-V: 07:00-21:00; S-D: 09:00-14:00,Sin datos
+ALBACETE,ALBACETE,ALBACETE,"CR N-322, 337,8","-2,031861",15/04/2024 09:14,"1,709",,,"1,859",,"1,589","1,659",,,,,,,,,,,REPSOL,P,dm,L-D: 06:30-22:00,L-D: 06:30-22:00 (P)
+ALBACETE,ALBACETE,ALBACETE,"AVENIDA 1º DE MAYO, S/N","-1,866806",15/04/2024 16:14,"1,559",,,,,"1,439",,,,,,,,,,,,PETROCAMP,P,dm,L-D: 07:00-23:00,L-D: 07:00-23:00 (A)
+ALBACETE,ALBACETE,ALBACETE,"CALLE ALCALDE CONANGLA (C.C. EROSKI), S/N","-1,847361",15/04/2024 11:38,"1,519",,,"1,609",,"1,439","1,509",,,,,,,,,,,FAMILY ENERGY,P,dm,L-S: 07:00-23:00; D: 08:00-23:00,L-S: 07:00-23:00 (A); D: 08:00-23:00 (A)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,--,,,,,,,,,,,,,,,,,
